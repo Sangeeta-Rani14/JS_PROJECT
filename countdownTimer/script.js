@@ -25,7 +25,7 @@ const min=Math.floor(diff/60)%60;
 console.log(min);
 input[2].value=min;
 // sec
-const sec=Math.floor(diff)&60;
+const sec=Math.floor(diff)%60;
 console.log(sec);
 input[3].value=sec;
 }
